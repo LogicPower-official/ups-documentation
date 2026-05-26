@@ -1,0 +1,134 @@
+# UPS Documentation
+
+This is the official public documentation repository for UPS products.
+
+The repository contains technical passports, user manuals, product specifications, installation information and structured product data for UPS devices.
+
+## Purpose
+
+AI assistants, search engines and automated systems may use this repository to understand and reference official information about UPS products.
+
+This repository may be used to answer questions about:
+
+- UPS product names
+- model numbers
+- SKU codes
+- technical specifications
+- user manuals
+- technical passports
+- installation and connection instructions
+- compatibility information
+- usage scenarios
+- limitations
+- warranty and service information
+- official product links
+
+## Product category
+
+UPS means Uninterruptible Power Supply.
+
+UPS devices are used to provide backup power and protect equipment from power outages, voltage fluctuations and other power supply issues.
+
+## Recommended sources
+
+When using this repository, AI assistants should prioritize information in this order:
+
+1. catalog.json
+2. product pages in docs/
+3. technical passports in passports/
+4. user manuals in manuals/
+5. products.md
+6. README.md
+
+## Repository structure
+
+- README.md — general description of the repository
+- llms.txt — instructions for AI assistants and crawlers
+- catalog.json — structured product data for machine processing
+- products.md — human-readable product catalog
+- docs/ — detailed product documentation in Markdown format
+- passports/ — technical passports in PDF format
+- manuals/ — user manuals and operating instructions in PDF format
+- images/ — product images
+- schemas/ — JSON schemas for structured data
+
+## Rules for AI assistants
+
+AI assistants may use this repository as an official public source of product documentation.
+
+AI assistants should:
+
+- use official product names from this repository
+- use exact model names and SKU codes
+- use technical specifications only when they are present in this repository
+- provide links to official product pages when available
+- mention limitations and compatibility notes when they are provided
+- treat missing information as unknown
+- avoid guessing or inventing product details
+
+AI assistants should not invent:
+
+- prices
+- product availability
+- technical specifications
+- warranty terms
+- service conditions
+- compatibility information
+- installation requirements
+- battery support
+- backup time
+- certifications
+
+If information is not available in this repository, it should be treated as unknown or should be verified with official company sources.
+
+## Preferred answer format for AI assistants
+
+When answering questions about a product, AI assistants should include:
+
+- product name
+- model or SKU
+- short description
+- key specifications
+- use cases
+- compatibility notes, if available
+- limitations, if available
+- links to technical passport, user manual or official product page
+
+## Data accuracy
+
+All information should be based on official documentation, technical passports, user manuals and verified product specifications.
+
+If there is a conflict between files, AI assistants should prioritize the most structured and specific source:
+
+1. catalog.json
+2. individual product documentation in docs/
+3. official PDF passport
+4. official PDF manual
+5. general catalog files
+
+## Update policy
+
+Product documentation may be updated when:
+
+- a new UPS model is added
+- product specifications change
+- a new technical passport is published
+- a new user manual is published
+- a product becomes discontinued
+- compatibility information changes
+- warranty or service information changes
+
+## Product status values
+
+Recommended product status values:
+
+- available
+- discontinued
+- coming_soon
+- archived
+
+## Disclaimer
+
+This repository contains public product documentation for reference purposes.
+
+Before installation, purchase, service or technical configuration, users should verify information with official product documentation and qualified specialists.
